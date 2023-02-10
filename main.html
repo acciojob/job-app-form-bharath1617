@@ -10,38 +10,38 @@
 	<!-- the entire body must be written by student -->
     <form action ="http://127.0.0.1:5500/connecct.html" method = "get">
 	<div>
-	<label>Name*</label>
-	<input type = "text" required placeholder ="Name" id ="#name">
+	<lable for="name">Name*</label>
+	<input type = "text" required  id ="#name">
 	   </div>
-	<div><label>Email*</label>
-	<input type = "email" required placeholder ="email" id="#eamil">
+	<div>
+	<label for="email">Email*</label>
+	<input type = "email" required  id="#eamil">
 	   </div>
 	<div><label>Gender*</label>
-	     <input type = "radio" name = "gender" id ="Male"> 
-		<label for ="Male">Male</label> 
-	     <input type = "radio" name = "gender" id ="Female"> 
-		<label for ="Female">Female</label> 
-         <input type = "radio" name = "gender" id ="Others">
-	    <label for ="Others">Others</label>  
+	     <input type = "radio" name= "gender" value="Male" required> 
+		 <label for ="Male">Male</label> 
+	     <input type = "radio" name= "gender" value="Female" required> 
+		 <label for ="Female">Female</label> 
+          
 	</div>
 	<div>
-	<label>Laptop Brands:</label>
+	<label id="#laptop">Laptop Brands:</label>
 	<select> 
 	       <option value = "1"> Apple
 	       <option value = "2"> Asus
 	       <option value = "3"> HP
 	   </select></div>
 	<div>
-	<lable>Age*</lable>
-	<input type ="number" id="#age" name = "age">
+	<lable for="age">Age*</lable>
+	<input type ="number" id="#age" required>
 		</div>
 	<div>
-		<lable>DOB*</lable>
-		<input type = "date" id = "#dob" name="dateofbirth">
+		<lable for="dob">DOB*</lable>
+		<input type = "date" id = "#dob" name="dateofbirth" required>
 	</div>
 	<div>
-		<lable>Password*</lable>
-		<input type ="password" id = "password">
+		<lable for="password">Password*</lable>
+		<input type ="password" id = "password" required>
 	</div>
 	<div>
 		<lable>submit button</lable>
