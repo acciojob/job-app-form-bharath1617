@@ -1,5 +1,14 @@
-body{
+form{
 	background-color: lightblue;
+	width: 350px;
+}
+input:hover{
+	background: grey;
+}
+button{
+	position: relative;
+	left:188px;
+	margin: 10px;
 }
 #laptop{
 	color:grey;
